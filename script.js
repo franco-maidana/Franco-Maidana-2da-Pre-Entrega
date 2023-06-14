@@ -79,6 +79,7 @@ carritoDeCompras.forEach((producto) => {
   carritoFinal.push(`${nombre} ${marca} $${precio}`);
 });
 
+console.log('dinero del cliente ingresado para poder realizar la compra' + dineroDelUsuario);
 console.log("Carrito de Compras:");
 console.table(carritoFinal);
 console.log(`Tu compra ha finalizado. El precio a pagar es: $ ${montoTotal} `);
